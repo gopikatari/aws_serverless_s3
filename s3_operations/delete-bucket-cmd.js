@@ -2,7 +2,7 @@ import { DeleteBucketCommand } from "@aws-sdk/client-s3";
 import s3Client from "../s3_utils/s3-client.js";
 import get from "lodash/get.js";
 
-const DeletBucket = async () => {
+const DeleteBucket = async () => {
   try {
     const params = {
       Bucket: "new-bucket-from-sdk-1992",
@@ -19,4 +19,4 @@ const DeletBucket = async () => {
   }
 };
 
-export default DeletBucket;
+export default DeleteBucket;
